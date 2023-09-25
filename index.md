@@ -10,8 +10,9 @@
 
 The categories are
 - Points
+- Three pointers
 - Rebounds
-- Assits
+- Assists
 - Steals
 - Blocks
 - Turnovers
@@ -23,18 +24,17 @@ For the past 30 years or so, the golden standard for NBA fantasy category rankin
 I was listening to [Josh Lloyd's](https://twitter.com/redrock_bball) podcast, where he was discussing how the Z-score is calculated. It essentially assumes that the data distribution is Gaussian or Normal. I thought to myself, well, almost everything becomes normally distributed when the sample size is large enough, and in the NBA, we're dealing with thousands and thousands of shots, steals, blocks, and more.
 
 
-
 ![Image](Images/Gaussian.png)
 
 Z-score is being calculated with the following formula:
 
-\[ Z = \frac{{X - \mu}}{{\sigma}} \]
+Z = (X - μ) / σ
 
 Where:
-- \( Z \) is the Z-score,
-- \( X \) is the value you want to standardize,
-- \( \mu \) is the mean (average) of the data,
-- \( \sigma \) is the standard deviation of the data,
+- Z is the Z-score,
+- X is the value you want to standardize,
+- μ is the mean (average) of the data,
+- σ is the standard deviation of the data.
 
 and the data is the values from all players for a specific category.
 
