@@ -5,10 +5,38 @@
 - [LinkedIn](https://www.linkedin.com/in/franhuzjan/)
 
 ## Original distributions
-NBA fantasy. The source of pure joy and stress for the most of us. If you're reading this, that means that you're deep enough into it, and you probably know that there are two types of NBA Fantasy leagues - points and categories. Categories mostly require more strategy and planning, and therefore they are more popular choice. 
-For the last 30ish years, Z-score has been the golden standard for NBA fantasy category rankings. Every year, we draft, rank and evaluate player based on their ranking. But have you ever question yourself how is that rank calculated? Probably, as well as myself, you haven't. 
 
-I was listening to [Josh Lloyd](https://twitter.com/redrock_bball) podcast where he was talking about how the z-score is being calculated. It effectively assumes that the distribution of the data is Gaussian/Normal. I was thinking to myself, well almost everything is normally distributed when the sample size is big enough, and here in the NBA, we are talking about thousand and thousand of shots, steals, blocks, etc. 
+**NBA Fantasy:** A source of pure joy and stress for most of us. If you're reading this, it means you're deep into it, and you probably know that there are two types of NBA Fantasy leagues: points and categories. Categories typically require more strategy and planning, making them the more popular choice, with the most popular being 9CAT league.
+
+The categories are
+- Points
+- Rebounds
+- Assits
+- Steals
+- Blocks
+- Turnovers
+- Field goal percentage
+- Free throw percentage
+
+For the past 30 years or so, the golden standard for NBA fantasy category rankings has been the Z-score. Every year, we draft, rank, and evaluate players based on their Z-score ranking. But have you ever questioned how that rank is calculated? Probably not, just like myself.
+
+I was listening to [Josh Lloyd's](https://twitter.com/redrock_bball) podcast, where he was discussing how the Z-score is calculated. It essentially assumes that the data distribution is Gaussian or Normal. I thought to myself, well, almost everything becomes normally distributed when the sample size is large enough, and in the NBA, we're dealing with thousands and thousands of shots, steals, blocks, and more.
+
+
+
+![Image](Images/Gaussian.png)
+
+Z-score is being calculated with the following formula:
+
+\[ Z = \frac{{X - \mu}}{{\sigma}} \]
+
+Where:
+- \( Z \) is the Z-score,
+- \( X \) is the value you want to standardize,
+- \( \mu \) is the mean (average) of the data,
+- \( \sigma \) is the standard deviation of the data,
+
+and the data is the values from all players for a specific category.
 
 
 ![Image](Images/org_dists.png)
