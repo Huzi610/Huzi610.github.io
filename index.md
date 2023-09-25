@@ -1,8 +1,8 @@
 # CARUSO METRIC
 
 ## Socials
-- [Twitter](https://twitter.com/FHuzjan) 
-- [LinkedIn](https://www.linkedin.com/in/franhuzjan/)
+- :heavy_multiplication_x: [Twitter](https://twitter.com/FHuzjan) 
+- :briefcase: [LinkedIn](https://www.linkedin.com/in/franhuzjan/)
 
 ## Original distributions
 
@@ -26,7 +26,6 @@ I was listening to [Josh Lloyd's](https://twitter.com/redrock_bball) podcast, wh
 <p style="text-align: center;">
 <img src="Images/Gaussian.png" style="width:50%; height:50%"/>
 </p>
-
 
 Z-score is being calculated with the following formula:
 
