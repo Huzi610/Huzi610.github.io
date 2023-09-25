@@ -24,7 +24,7 @@ For the past 30 years or so, the golden standard for NBA fantasy category rankin
 I was listening to [Josh Lloyd's](https://twitter.com/redrock_bball) podcast, where he was discussing how the Z-score is calculated. It essentially assumes that the data distribution is Gaussian or Normal. I thought to myself, well, almost everything becomes normally distributed when the sample size is large enough, and in the NBA, we're dealing with thousands and thousands of shots, steals, blocks, and more.
 
 
-<img src="Images/Gaussian.png" style="width=50%; height=50%"/>
+<img src="Images/Gaussian.png" style="width=5%; height=5%"/>
 
 Z-score is being calculated with the following formula:
 
