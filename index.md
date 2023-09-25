@@ -105,7 +105,7 @@ First that that I did was took both the FT% and FT attemps per game, and tried t
 
 The second thing I tried was inspired by the GREAT [u/nwsy96](https://www.reddit.com/user/nwsy96/) and his comment on reddit - this thing called *impact*. The impact effecitively takes both percentage and volume into account, but it also takes into account the mean FT% of all players. Therefore if you're worse than the average shooter and also shoot a lot of free throws you will be punished! And in the other case you will be rewarded - great it makes sense now. Hopefully...
 
-![FT%](Images/ft%.png)
+![FT%](Images/ft_perc.png)
 
 CARUSO punishes much less the worser percentage shooters than the traditional methods, but it also rewards less the finest FT shooters (as well as FG). Why you might ask? Because the distribution said so!! <3 MATHS <3
 
