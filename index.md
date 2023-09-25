@@ -78,6 +78,16 @@ Once the optimal distribution is identified, the H-score can be calculated for e
 
 ## CARUSO interpretation
 
+Okay, now I have told a lot, but showed almost none of the results. In the graphs below, the comparision of H-score and Z-score can be seen. 
+
+Some of the main issuses that CARUSO solves is that it doesn't overvalue high values in sparse categories (steals and blocks), because as the distribution itself shows, they are not that rare as much as the traditional Z-score says (See image with distributions above). It could be said that it doesn't reward punish the extreme high cases, but it punishes more the extreme low values in most cases (except FT impact and 3s made).
+
+![H-score](Images/h_vs_z_score.png)
+
+### 3-pointers
+
+We have our first specific case with 3s. The thing is that this does not look a univariate distribution, meaning it has **2** spikes. 
+
 
 
 
