@@ -1,7 +1,7 @@
-Syntax highlighted code block
+# CARUSO METRIC
+## Original distributions
+[Image][Images/org_dists.png]
 
-# Header 1
-## Header 2
 ### Header 3
 
 - Bulleted
