@@ -69,9 +69,6 @@ CARUSO is based on the H-score (instead of the Z-score). Similar to the classica
 <p style="text-align: center;">
 	<img src="/Images/real_vs_fitted.png", style="width: 25%, height: 25%;"/>
 </p>
-<p style="text-align: center;">
-    <em>Example of one real distribution and the fitted distribution</em>
-</p>
 
 Once the optimal distribution is identified, the H-score can be calculated for every data point within it, involving basic statistics and mathematics.
 
