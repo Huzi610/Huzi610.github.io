@@ -67,7 +67,7 @@ Inspired by one of my favorite, and also one of the most underrated players in t
 CARUSO is based on the H-score (instead of the Z-score). Similar to the classical approach, it calculates a score for each category and then takes the average across all categories, yielding the final CARUSO value. CARUSO also employs a machine learning algorithm to determine the best distribution and its parameters, aiming to minimize the mean squared error on the data.
 
 <p style="text-align: center;">
-	<img src="Images/real_vs_fitted.png", style="width: 25%, height: 25%;"/>
+	<img src="file:///Users/franhuzjan/Documents/GitHub/Huzi610.github.io/Images/real_vs_fitted.png", style="width: 25%, height: 25%;"/>
 </p>
 <p style="text-align: center;">
     <em>Example of one real distribution and the fitted distribution</em>
@@ -76,19 +76,24 @@ CARUSO is based on the H-score (instead of the Z-score). Similar to the classica
 Once the optimal distribution is identified, the H-score can be calculated for every data point within it, involving basic statistics and mathematics.
 
 
-## CARUSO interpretation
+## CARUSO Interpretation
 
-Okay, now I have told a lot, but showed almost none of the results. In the graphs below, the comparision of H-score and Z-score can be seen. 
+I've provided a lot of information, but I've shown very few results. In the graphs below, you can see a comparison of H-score and Z-score.
 
-Some of the main issuses that CARUSO solves is that it doesn't overvalue high values in sparse categories (steals and blocks), because as the distribution itself shows, they are not that rare as much as the traditional Z-score says (See image with distributions above). It could be said that it doesn't reward punish the extreme high cases, but it punishes more the extreme low values in most cases (except FT impact and 3s made).
+Some of the main issues that CARUSO addresses include not overvaluing high values in sparse categories like steals and blocks. This is because, as the distribution itself shows (see the image with distributions above), these categories are not as rare as the traditional Z-score suggests.
 
-![H-score](Images/h_vs_z_score.png)
+![H-score vs. Z-score](Images/h_vs_z_score.png)
 
-### 3-pointers
+### 3-Pointers
 
-We have our first specific case with 3s. The thing is that this does not look a univariate distribution, meaning it has **2** spikes. 
+Let's delve into a specific case: 3-pointers. The unique aspect here is that it doesn't resemble a univariate distribution; instead, it exhibits **2** spikes. As a result, it can't be adequately fitted with the classic distribution and requires a Gaussian mixture model for accurate and logical predictions. You can see the fitted and real distributions on the left plot below.
+
+![3-Pointers](Images/3_g.png)
+
+The comparison of H and Z-score for 3-pointers is particularly fascinating. Because it's a multivariate distribution, and we have players who either take 3-pointers or don't take them at all, CARUSO penalizes players with low 3-pointers and also rewards the most extreme cases more than the traditional approach. This finding piqued my interest, and it will have a significant impact on the final player rankings.
 
 
+### Percentages categories 
 
 
 
