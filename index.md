@@ -40,17 +40,43 @@ Where:
 and the data is the values from all players for a specific category.
 
 
-Okay sounds good for now, but Josh said that the data is not normally distributed. I can't trust him blindly, so I decided to plot the main 9 categories all for all top180 players based on traditional Z-score, and their distributions.
+Okay, sounds good for now, but Josh said that the data is not normally distributed. I can't trust him blindly, so I decided to plot the main 9 categories for all top 180 players based on the traditional Z-score from the 2013/14 to the 2022/23 season, along with their distributions.
 
-![Image](Images/org_dists.png)
+![Distribution Plot](Images/org_dists.png)
 
-Well, well, looks like he was right all along. None of this data looks like Gaussian distribution. Maybe Z-score isn't the best metric available. Maybe that is the reason why last season players like Delon Wright, Al Horford, De'Anthony Melton had higher rank than the 2x MVP Giannis Antetokounmpo. 
+Well, well, it looks like he was right all along. None of this data resembles a Gaussian distribution. Maybe the Z-score isn't the best metric available. Perhaps that's why players like Delon Wright, Al Horford, and De'Anthony Melton had a higher rank than the 2x MVP Giannis Antetokounmpo in his highest-scoring season last year.
 
-Btw really interesting tweet by Josh:
+By the way, there's a really interesting tweet by Josh:
+
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">JJJ had a z score of 4.64 for blocks category last season. In a normally distributed set of data, someone being that far above is a 1 in about half a million proposition.</p>&mdash; Josh Lloyd (@redrock_bball) <a href="https://twitter.com/redrock_bball/status/1690974327620227072?ref_src=twsrc%5Etfw">August 14, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-A player that averages 3.0 blocks per game, should be THAT rare. There have been plenty of players in the past who have averaged even more. 
+A player that averages 3.0 blocks per game should be THAT rare. There have been plenty of players in the past who have averaged even more. This could be the biggest inspiration for CARUSO.
+
+
+## Idea for CARUSO
+
+Inspired by one of my favorite, and also one of the most underrated players in the league, I've coined the name CARUSO metric, which stands for:
+
+- **C** - Customized
+- **A** - Adaptive
+- **R** - Resourceful
+- **U** - Unique
+- **S** - Statistical
+- **O** - Optimized
+
+CARUSO is based on the H-score (instead of the Z-score). Similar to the classical approach, it calculates a score for each category and then takes the average across all categories, yielding the final CARUSO value. CARUSO also employs a machine learning algorithm to determine the best distribution and its parameters, aiming to minimize the mean squared error on the data.
+
+<p style="text-align: center;">
+	<img src="Images/real_vs_fitted.png", alt="Fitted distribution", style="width: 25%, height: 25%;"/>
+</p>
+<p, style="text-align: center;">
+    <em>Example of one real distribution and the fitted distribution</em>
+</p>
+
+Once the optimal distribution is identified, the H-score can be calculated for every data point within it, involving basic statistics and mathematics.
+
+
+## CARUSO interpretation
 
 
 
-### Header 3
