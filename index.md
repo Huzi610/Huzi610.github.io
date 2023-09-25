@@ -1,6 +1,6 @@
 # CARUSO METRIC
 ## Original distributions
-[Image][Images/org_dists.png]
+![Image](Images/org_dists.png)
 
 ### Header 3
 
