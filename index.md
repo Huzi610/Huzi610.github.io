@@ -1,4 +1,6 @@
 # CARUSO METRIC
+
+[Twitter](https://twitter.com/FHuzjan) [LinkedIn](https://www.linkedin.com/in/franhuzjan/)
 ## Original distributions
 ![Image](Images/org_dists.png)
 
