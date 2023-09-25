@@ -147,25 +147,6 @@ xmlns="http://www.w3.org/TR/REC-html40">
   mso-footer-margin:.3in;}
 -->
 </style>
-<script language="JavaScript">
-<!--
-function fnUpdateTabs()
- {
-  if (parent.window.g_iIEVer>=4) {
-   if (parent.document.readyState=="complete"
-    && parent.frames['frTabs'].document.readyState=="complete")
-   parent.fnSetActiveSheet(0);
-  else
-   window.setTimeout("fnUpdateTabs();",150);
- }
-}
-
-if (window.name!="frSheet")
- window.location.replace("../caruso_html.htm");
-else
- fnUpdateTabs();
-//-->
-</script>
 
 </head>
 
