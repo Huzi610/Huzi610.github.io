@@ -1,8 +1,8 @@
 # CARUSO METRIC
 
 ## Socials
-- :heavy_multiplication_x: [Twitter](https://twitter.com/FHuzjan) 
-- :briefcase: [LinkedIn](https://www.linkedin.com/in/franhuzjan/)
+- ✖️ [Twitter](https://twitter.com/FHuzjan) 
+- 💼 [LinkedIn](https://www.linkedin.com/in/franhuzjan/)
 
 ## Original distributions
 
@@ -40,6 +40,17 @@ Where:
 and the data is the values from all players for a specific category.
 
 
+Okay sounds good for now, but Josh said that the data is not normally distributed. I can't trust him blindly, so I decided to plot the main 9 categories all for all top180 players based on traditional Z-score, and their distributions.
+
 ![Image](Images/org_dists.png)
+
+Well, well, looks like he was right all along. None of this data looks like Gaussian distribution. Maybe Z-score isn't the best metric available. Maybe that is the reason why last season players like Delon Wright, Al Horford, De'Anthony Melton had higher rank than the 2x MVP Giannis Antetokounmpo. 
+
+Btw really interesting tweet by Josh:
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">JJJ had a z score of 4.64 for blocks category last season. In a normally distributed set of data, someone being that far above is a 1 in about half a million proposition.</p>&mdash; Josh Lloyd (@redrock_bball) <a href="https://twitter.com/redrock_bball/status/1690974327620227072?ref_src=twsrc%5Etfw">August 14, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+A player that averages 3.0 blocks per game, should be THAT rare. There have been plenty of players in the past who have averaged even more. 
+
+
 
 ### Header 3
