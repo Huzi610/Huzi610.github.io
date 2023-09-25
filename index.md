@@ -147,7 +147,7 @@ xmlns="http://www.w3.org/TR/REC-html40">
   mso-footer-margin:.3in;}
 -->
 </style>
-<![if !supportTabStrip]><script language="JavaScript">
+<script language="JavaScript">
 <!--
 function fnUpdateTabs()
  {
