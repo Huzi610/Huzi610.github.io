@@ -1,8 +1,14 @@
-# CARUSO METRIC
+# CARUSO Metric
 
 ## Socials
 - ✖️ [Twitter](https://twitter.com/FHuzjan) 
 - 💼 [LinkedIn](https://www.linkedin.com/in/franhuzjan/)
+
+## Table of Contents
+1. [Original distributions](#original-distributions)
+2. [Idea For CARUSO](#idea-for-caruso)
+3. [CARUSO Intepretation](#caruso-interpretation)
+4. [Rankings](#rankings)
 
 ## Original distributions
 
@@ -24,7 +30,7 @@ For the past 30 years or so, the golden standard for NBA fantasy category rankin
 I was listening to [Josh Lloyd's](https://twitter.com/redrock_bball) podcast, where he was discussing how the Z-score is calculated. It essentially assumes that the data distribution is Gaussian or Normal. I thought to myself, well, almost everything becomes normally distributed when the sample size is large enough, and in the NBA, we're dealing with thousands and thousands of shots, steals, blocks, and more.
 
 <p style="text-align: center;">
-<img src="Images/Gaussian.png" style="width:50%; height:50%"/>
+<img src="Images/Gaussian.png" style="width:75%; height:75%"/>
 </p>
 
 Z-score is being calculated with the following formula:
@@ -108,7 +114,7 @@ The second method I explored was inspired by the GREAT [u/nwsy96](https://www.re
 CARUSO penalizes poor percentage shooters less than traditional methods, but it also rewards elite FT shooters (and FG shooters) less. Why, you might wonder? Because that's what the distribution tells us! <3 MATHS <3
 
 
-### Rankings
+## Rankings
 
 Here are the top30 players from last season (2022/23) based on CARUSO. Their CARUSO Rank is shown, traditional rank, changes in the rank and H-score for each category, as well as their value for the categories in question. 
 
@@ -124,11 +130,7 @@ What is really nice that Giannis jumped up a whooping 82 spots, while JJJ droppe
 Pretty much all of it makes sense, I would biasly say :)
 
 
-Enjoy the top 30 rankings [here](https://onedrive.live.com/embed?resid=EEC195AB3EC76292%211508&authkey=!ADZ-Q0_mg14k8SQ&em=2)
-
-
-Currently working on a fix, so that the rankings can be shown here on this page. Sorry until then. 
-
-Maybe works: 
+Enjoy the top 30 rankings [here](https://onedrive.live.com/embed?resid=EEC195AB3EC76292%211508&authkey=!ADZ-Q0_mg14k8SQ&em=2) or in the table below:
+ 
 
 <iframe src="https://onedrive.live.com/embed?resid=EEC195AB3EC76292%211508&authkey=!ADZ-Q0_mg14k8SQ&em=2" width="830" height="600" frameborder="0" scrolling="no"></iframe>
