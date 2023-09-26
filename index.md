@@ -92,22 +92,23 @@ The comparison of H and Z-score for 3-pointers is particularly fascinating. Beca
 
 ### Percentages categories
 
-The thing that gave me the most headache while trying to figure the CARUSO ranking were the percentages categories (FG% and FT%). Now I will use the FT% as an example, but it can be also applied to FG%. 
-The issuse with them is that there is no clear interpretability which player is better:
+The aspect that posed the most significant challenge while developing the CARUSO ranking was handling the percentage categories (e.g., FG% and FT%). For this explanation, I'll focus on FT%, but the same concept applies to FG%.
 
-- Player A that shoots FTs with 80% on 20 attemps
-- Player B that shoots FTs with 87% on 3 attemps
+The issue with these categories lies in the lack of clear interpretability to determine which player is better:
 
-Both players shoot above average FT%, but which one should score more? Let's turn to distributions once again (wohoo). 
+- Player A shoots FTs at 80% on 20 attempts.
+- Player B shoots FTs at 87% on 3 attempts.
 
-First that that I did was took both the FT% and FT attemps per game, and tried to score both at the same time. Makes since right? Except it doesn't. In this approach the higher the FT% was, the higher the first part of the H-score will be (which is logical and it should work like that) and also the more the attemps the players has the second part of the H-score will be higher (which is pretty dumb, because of the next example). For example if a player A shoots 100 attemps/game on 50%, he will have a higher score than player B which shoots 70% on 2 attemps/game, which is crazy and not logical and wrong. Let's go to the next approach. 
+Both players boast above-average FT%, but how should we score them? Let's revisit the world of distributions (hooray!).
 
+My initial approach involved considering both FT% and FT attempts per game simultaneously. Seemed reasonable, right? Well, not quite. In this approach, the higher the FT% was, the higher the first part of the H-score (which makes sense), and the more attempts a player had, the higher the second part of the H-score (which seemed nonsensical). For example, Player A shooting 100 attempts/game at 50% would score higher than Player B shooting 70% on 2 attempts/game, which doesn't make logical sense. So, I moved on to the next approach.
 
-The second thing I tried was inspired by the GREAT [u/nwsy96](https://www.reddit.com/user/nwsy96/) and his comment on reddit - this thing called *impact*. The impact effecitively takes both percentage and volume into account, but it also takes into account the mean FT% of all players. Therefore if you're worse than the average shooter and also shoot a lot of free throws you will be punished! And in the other case you will be rewarded - great it makes sense now. Hopefully...
+The second method I explored was inspired by the GREAT [u/nwsy96](https://www.reddit.com/user/nwsy96/) and their Reddit comment on something called "impact." Impact effectively considers both percentage and volume while also factoring in the mean FT% of all players. Consequently, if you perform worse than the average shooter and also take many free throws, you will be penalized! Conversely, you'll be rewarded if you're a better-than-average shooter with high volume. Finally, it started making sense...
 
-![FT%](Images/ft_perc.png)
+![FT% Distribution](Images/ft_perc.png)
 
-CARUSO punishes much less the worser percentage shooters than the traditional methods, but it also rewards less the finest FT shooters (as well as FG). Why you might ask? Because the distribution said so!! <3 MATHS <3
+CARUSO penalizes poor percentage shooters less than traditional methods, but it also rewards elite FT shooters (and FG shooters) less. Why, you might wonder? Because that's what the distribution tells us! <3 MATHS <3
+
 
 ### Rankings
 
@@ -125,7 +126,7 @@ What is really nice that Giannis jumped up a whooping 82 spots, while JJJ droppe
 Pretty much all of it makes sense, I would biasly say :)
 
 
-Enjoy the top 30 rankings [here]()
+Enjoy the top 30 rankings [here](https://onedrive.live.com/embed?resid=EEC195AB3EC76292%211508&authkey=!ADZ-Q0_mg14k8SQ&em=2)
 
 
-<iframe src="https://onedrive.live.com/embed?resid=EEC195AB3EC76292%211508&authkey=!ADZ-Q0_mg14k8SQ&em=2" width="830" height="500" frameborder="0" scrolling="no"></iframe>
+Currently working on a fix, so that the rankings can be shown here on this page. Sorry until then. 
