@@ -66,9 +66,7 @@ Inspired by one of my favorite, and also one of the most underrated players in t
 
 CARUSO is based on the H-score (instead of the Z-score). Similar to the classical approach, it calculates a score for each category and then takes the average across all categories, yielding the final CARUSO value. CARUSO also employs a machine learning algorithm to determine the best distribution and its parameters, aiming to minimize the mean squared error on the data.
 
-<p style="text-align: center;">
-	<img src="Images/real_vs_fitted.png", style="width: 25%, height: 25%;"/>
-</p>
+![Real vs. Fitted](Images/real_vs_fitted.png)
 
 Once the optimal distribution is identified, the H-score can be calculated for every data point within it, involving basic statistics and mathematics.
 
