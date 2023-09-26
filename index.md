@@ -1,5 +1,7 @@
 # CARUSO Metric
 
+<link rel="shortcut icon" type="image/png" href="Images/favicon.png">
+
 ## Socials
 - ✖️ [Twitter](https://twitter.com/FHuzjan) 
 - 💼 [LinkedIn](https://www.linkedin.com/in/franhuzjan/)
