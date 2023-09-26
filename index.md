@@ -130,3 +130,7 @@ Enjoy the top 30 rankings [here](https://onedrive.live.com/embed?resid=EEC195AB3
 
 
 Currently working on a fix, so that the rankings can be shown here on this page. Sorry until then. 
+
+Maybe works: 
+
+<iframe src="https://onedrive.live.com/embed?resid=EEC195AB3EC76292%211508&authkey=!ADZ-Q0_mg14k8SQ&em=2" width="402" height="346" frameborder="0" scrolling="no"></iframe>
