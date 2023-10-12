@@ -2,6 +2,9 @@
 
 <link rel="shortcut icon" type="image/png" href="Images/favicon.png">
 
+## Other Links
+- [History Fantasy Rankings](players.html)
+
 ## Socials
 - ✖️ [Twitter](https://twitter.com/FHuzjan) 
 - 💼 [LinkedIn](https://www.linkedin.com/in/franhuzjan/)
